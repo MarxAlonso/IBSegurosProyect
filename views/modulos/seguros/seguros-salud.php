@@ -525,6 +525,7 @@ font-size: 18px;  padding: 18px;color:black ;margin-bottom: 50px; margin-bottom:
                 </button>
                 <div class="carousel__lista_blog">
                     <div class="carousel__elemento">
+                    <a href="#" class="enlace_personalizado">
                         <div class="container-fluid cards-inicio">
                             <div class="lista_elementos_blog container homeport1">
                                 <div class="card_elemento">
@@ -550,9 +551,11 @@ font-size: 18px;  padding: 18px;color:black ;margin-bottom: 50px; margin-bottom:
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
 
                     <div class="carousel__elemento">
+                    <a href="seguros-ahorro" class="enlace_personalizado">
                         <div class="container-fluid cards-inicio">
                             <div class="lista_elementos container homeport1">
                                 <div class="card_elemento">
@@ -573,15 +576,15 @@ font-size: 18px;  padding: 18px;color:black ;margin-bottom: 50px; margin-bottom:
                                              Seguro de Ahorro
                                             </p>
                                         </div>
-
-
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        </a>
                     </div>
 
                     <div class="carousel__elemento">
+                    <a href="seguros-cortoPlazo" class="enlace_personalizado">
                         <div class="container-fluid cards-inicio">
                             <div class="lista_elementos container homeport1">
                                 <div class="card_elemento">
@@ -605,10 +608,9 @@ font-size: 18px;  padding: 18px;color:black ;margin-bottom: 50px; margin-bottom:
                                 </div>
                             </div>
                         </div>
+                    </a>
                     </div>
-
                 </div>
-                
             </div>
           
         </div>
