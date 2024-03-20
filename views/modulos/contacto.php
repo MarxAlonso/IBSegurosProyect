@@ -91,25 +91,25 @@
                         <div class="row pt-5 justify-content-center">
                             <div class="col-lg-5">
                                 <div class="formulario__grupo-input" style="margin-bottom: 90px;">
-                                    <input required type="text" pattern="^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ\s]+$" class="form-control inp" id="nombres" name="nombres" placeholder="Nombres y Apellidos"  style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;"/>
+                                    <input required type="text" pattern="^[a-zA-ZñÑáéíóúÁÉÍÓÚüÜ\s]+$" class="form-control inp" id="nombres" name="nombres" placeholder="Nombres y Apellidos"  style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white; color:white;"/>
                                     <p id="obligatorio-message" style="color: red; display: none;">*Este campo es obligatorio</p>
                                     <p id="incorrecto-message" style="color: red; display: none;">*Este campo solo debe contener letras</p>
                                 </div>
                             </div>
                             <div class="col-lg-5">
                                 <div class="input-group flex-nowrap  " style="margin-bottom: 90px;">
-                                    <input style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;" type="text" class="form-control inp" id="telefono" name="telefono" pattern="[2-7][0-9]{6}" oninvalid="setCustomValidity('Ingrese un número valido para Lima-Perú')" oninput="setCustomValidity('')" maxlength="7" minlength="7" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="Número telefónico" aria-describedby="basic-addon1" autocomplete="off">
+                                    <input style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;color:white; " type="text" class="form-control inp" id="telefono" name="telefono" pattern="[2-7][0-9]{6}" oninvalid="setCustomValidity('Ingrese un número valido para Lima-Perú')" oninput="setCustomValidity('')" maxlength="7" minlength="7" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="Número telefónico" aria-describedby="basic-addon1" autocomplete="off">
                                 </div>
                                 <p id="obligatorio-mesage-tel" style="color: red; display: none;">*Este campo es obligatorio</p>
                                 <p id="incorrecto-message-tel" style="color: red; display: none;">*Ingrese solo números en este campo</p>
                             </div>
                             <div class="col-lg-5" style="margin-bottom: 90px;">
-                                <input required type="email" class="form-control inp" id="email" name="email" placeholder="Email" style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;"/>
+                                <input required type="email" class="form-control inp" id="email" name="email" placeholder="Email" style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white; color:white;"/>
                                 <p id="email-validation-message" class="validation-message"></p>
                             </div>
                             <div class="col-lg-5">
                                 <div class="input-group flex-nowrap" style="margin-bottom: 90px;">
-                                    <input required type="text" class="form-control inp" id="celular" name="celular" pattern="[9][0-9]{8}" oninvalid="setCustomValidity('Ingrese un numero valido, debe ser de nueve digitos y valido para Lima-Perú')" oninput="setCustomValidity('')" maxlength="9" minlength="9" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="Célular" style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;">
+                                    <input required type="text" class="form-control inp" id="celular" name="celular" pattern="[9][0-9]{8}" oninvalid="setCustomValidity('Ingrese un numero valido, debe ser de nueve digitos y valido para Lima-Perú')" oninput="setCustomValidity('')" maxlength="9" minlength="9" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="Célular" style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;color:white;">
                                 </div>
                                 <p id="obligatorio-message-cel" style="color: red; display: none;">*Este campo es obligatorio</p>
                                 <p id="incorrecto-message-cel" style="color: red; display: none;">*Ingrese solo números en este campo</p>
@@ -117,7 +117,7 @@
                             <div class="col-lg-5" >
                                 <div class="formulario__grupo-input" style="margin-bottom: 90px;">
 
-                                    <input required type="text" class="form-control inp" id="dni" name="dni" pattern="[0-9]{8}" oninvalid="setCustomValidity('Ingrese un numero valido, debe ser de nueve digitos y valido para Lima-Perú')" oninput="setCustomValidity('')" maxlength="8" minlength="8" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="DNI" style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;">
+                                    <input required type="text" class="form-control inp" id="dni" name="dni" pattern="[0-9]{8}" oninvalid="setCustomValidity('Ingrese un numero valido, debe ser de nueve digitos y valido para Lima-Perú')" oninput="setCustomValidity('')" maxlength="8" minlength="8" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" placeholder="DNI" style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;color:white;">
                                 </div>
                                 <p id="obligatorio-mesage-tel" style="color: red; display: none;">*Este campo es obligatorio</p>
                                 <p id="incorrecto-message-tel" style="color: red; display: none;">*Ingrese solo números en este campo</p>
@@ -161,7 +161,7 @@
 
                             <div class="col-md-8">
                                 <label class="pt-3">Mensaje</label>
-                                <textarea required class="form-control" rows="3" id="mensajePersona" name="mensajePersona"  style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white;"></textarea>
+                                <textarea required class="form-control" rows="3" id="mensajePersona" name="mensajePersona"  style="background-color: transparent; border-top: none; border-right: none; border-left: none; border-bottom: 2px solid white; color:white;"></textarea>
                                 <br>
                             </div>
 
